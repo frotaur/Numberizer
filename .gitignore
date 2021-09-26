@@ -1,0 +1,8 @@
+__pycache__/
+build/
+Data/
+eighty6.model/
+predictfolder/
+Test/
+cli.py
+main.spec
