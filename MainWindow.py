@@ -59,7 +59,7 @@ class MainWindow(Tk):
 		else:
 			path = "Test\\" + str(thenumber) + "\\"
 
-		namething = "faggot" + str(np.random.random_integers(0, 10000)) + ".png"
+		namething = "nbr" + str(np.random.random_integers(0, 10000)) + ".png"
 		print("Saving file {}".format(namething))
 		self.canvas.save(path, namething)
 
