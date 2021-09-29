@@ -15,6 +15,7 @@ class MainWindow(Tk):
 	def __init__(self, **kwargs):
 		Tk.__init__(self, **kwargs)
 		upframe = Frame(self)
+		os.chdir(os.path.dirname(__file__))#Change to working directory
 
 		# CREATE FOLDERS IF NOT DONE YET
 		for i in range(10):
